@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Hello World</p>
+    <form id="Survey-form">
+      <fieldset>
+        <label id="name-label">Name <input placeholder="Enter your name" required type="text" id="name"/></label>
+        <label id="email-label">Email <input placeholder="Enter your email" required type="email" id="email"/></label>
+        <label id="number-label">Age <input placeholder="Enter your age" type="number" id="number" min="18" max="99" /></label>
+        <label>Color
+      <select id="dropdown">
+        <option disabled selected>Select best color for you</option>
+        <option name="red">red</option>
+        <option name="green">green</option>
+        <option name="blue">blue</option>
+      </select>
+      </label>
+      <label>Intel or AMD?
+      <label><input class="inline" type="radio" name="group"/>Intel</label>
+      <label><input class="inline" type="radio" name="group"/>AMD</label>
+      <label><input class="inline" type="radio" name="group"/>Both are great :)</label>
+      </label>
+      <label>What animals you like?
+        <label class="check"><input class="inline" type="checkbox"/>Dogs</label>
+        <label class="check"><input class="inline" type="checkbox"/>Cats</label>
+        <label class="check"><input class="inline" type="checkbox"/>Rats/mouses</label>
+        <label class="check"><input class="inline" type="checkbox"/>Rabbits</label>
+      </label>
+      <label>Just write something<textarea rows="3" placeholder="For example, Roses are red..."></textarea></label>
+      <input type="submit" id="submit" value="submit"></input>
+      </fieldset>
+    </form>
+</body>
+</html>

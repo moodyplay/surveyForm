@@ -1,0 +1,56 @@
+body{
+  font-family:tahoma;
+  font-size: 18px;
+    background-color:#52796F;
+  
+}  
+h1,p{
+  text-align: center;
+}
+fieldset{
+  border:none;
+}
+form{
+  max-width: 600px;
+  min-width: 250px;
+  margin: 0 auto;
+  background-color:#84A98C;
+  border:none;
+  padding-top: 10px;
+}
+label{
+  background-color: #CAD2C5;
+  display: block;
+  margin: 0 0 1em 0;
+  padding: 5px 5px 0px 5px;
+  border-radius: 10px;
+  }
+  input, select, textarea{
+    width:calc(100% - 10px);
+    min-height: 2em;
+    margin: 5px 0;  
+    
+  }
+select{
+  width: 100%;
+}
+  
+.inline{
+  margin:0 0.5em 0 0;
+  width: auto;
+  vertical-align:middle;
+  
+}
+  .check{
+    margin-bottom: 0.1em;
+  }
+input[type="submit"]{
+  background-color:#CAD2C5;
+  border:none;
+  height: 45px;
+  border-radius: 10px;
+}
+input[type="submit"]:hover{
+  background-color:#52796F;
+  cursor:pointer;
+}
